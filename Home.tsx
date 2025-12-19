@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useBlogPosts } from '../services/blogService.ts';
+import { useBlogPosts } from './blogService';
 
 const Home: React.FC = () => {
   const { posts } = useBlogPosts();

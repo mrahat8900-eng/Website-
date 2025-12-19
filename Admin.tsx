@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import { useBlogPosts, useSiteSettings } from '../services/blogService.ts';
+import { useBlogPosts, useSiteSettings } from './blogService';
 import { BlogPost, PostType } from '../types.ts';
-import { generateSummary, generateContent } from '../services/geminiService.ts';
-import YoutubeModal from './YoutubeModal.tsx';
-import PostSelectModal from './PostSelectModal.tsx';
+import { generateSummary, generateContent } from './geminiService';
+import YoutubeModal from './YoutubeModal';
+import PostSelectModal from './PostSelectModal';
 
 const Admin: React.FC = () => {
   const { posts, addPost } = useBlogPosts();
