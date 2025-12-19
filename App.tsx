@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { HashRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
-import Home from './components/Home.tsx';
-import BlogPostView from './components/BlogPostView.tsx';
-import Admin from './components/Admin.tsx';
-import Contact from './components/Contact.tsx';
+import Home from './Home';
+import BlogPostView from './BlogPostView';
+import Admin from './Admin';
+import Contact from './Contact';
 
 const Header: React.FC = () => {
   const location = useLocation();
