@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { useBlogPosts, useSiteSettings } from './blogService';
+import { useBlogPosts, useSiteSettings } from '../services/blogService';
 import { BlogPost, PostType } from '../types.ts';
-import { generateSummary, generateContent } from './geminiService';
+import { generateSummary, generateContent } from '../services/geminiService';
 import YoutubeModal from './YoutubeModal';
 import PostSelectModal from './PostSelectModal';
 

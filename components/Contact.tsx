@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import { useSiteSettings } from './blogService';
+import { useSiteSettings } from '../services/blogService';
 
 const Contact: React.FC = () => {
   const { settings } = useSiteSettings();

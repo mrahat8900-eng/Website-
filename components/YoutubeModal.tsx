@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { searchYoutube } from './youtubeService';
+import { searchYoutube } from '../services/youtubeService';
 import { YoutubeSearchResult } from '../types.ts';
 
 interface YoutubeModalProps {

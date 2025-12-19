@@ -1,7 +1,7 @@
 
 import React, { useEffect, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
-import { useBlogPosts } from './blogService';
+import { useBlogPosts } from '../services/blogService';
 
 const BlogPostView: React.FC = () => {
   const { id } = useParams();
